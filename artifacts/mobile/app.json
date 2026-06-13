@@ -20,8 +20,12 @@
     "android": {
       "package": "com.friendcare.app"
     },
-    "web": {
-      "favicon": "./assets/images/icon.png"
+   "web": {
+  "favicon": "./assets/favicon.png",
+  "meta": {
+    "google-site-verification": "<meta name="google-site-verification" content="s4urP53cisynOBrthyb4ChWdC_xJdR9aKGRfEYHHP58" />"
+  }
+}
     },
     "plugins": [
       [
