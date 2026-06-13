@@ -8,25 +8,29 @@
     "scheme": "friendcare",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+
     "splash": {
       "image": "./assets/images/icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+
     "ios": {
       "supportsTablet": false,
       "bundleIdentifier": "com.friendcare.app"
     },
+
     "android": {
       "package": "com.friendcare.app"
     },
-   "web": {
-  "favicon": "./assets/favicon.png",
-  "meta": {
-    "google-site-verification": "<meta name="google-site-verification" content="s4urP53cisynOBrthyb4ChWdC_xJdR9aKGRfEYHHP58" />"
-  }
-}
+
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "meta": {
+        "google-site-verification": "s4urP53cisynOBrthyb4ChWdC_xJdR9aKGRfEYHHP58"
+      }
     },
+
     "plugins": [
       [
         "expo-router",
@@ -37,10 +41,12 @@
       "expo-font",
       "expo-web-browser"
     ],
+
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
     },
+
     "extra": {
       "eas": {
         "projectId": "c572c361-b380-4ad5-821a-8def92d0b32f"
